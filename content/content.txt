@@ -5,7 +5,7 @@ Working with Text on the Page
 Keeping Current with Web Type
 For the Love of Type
 
-# heading
+# heading (header)
 
 Typography Resources
 
