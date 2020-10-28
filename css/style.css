@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+
+body {
+    background-image: url(/img/bg.jpg);
+}
+
+main {
+    padding: 3em;
+    margin: 25em;
+    margin-top: 1em;
+    text-align: left;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+h4, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding: 2em;
+    
+}
+
+a:link, a:visited {
+    color: #9d0208;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #370617;
+    text-decoration: none;
+}
