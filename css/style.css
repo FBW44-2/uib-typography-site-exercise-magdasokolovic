@@ -8,36 +8,49 @@
     font-size: 62.5%;
 } */
 
+
 body {
     background-image: url(/img/bg.jpg);
 }
 
 main {
-    padding: 3em;
-    margin: 25em;
-    margin-top: 1em;
+    padding: 3em 6em;
+    margin: 1em 25em;
     text-align: left;
     background-color: white;
+    line-height: 1.8em;
 }
 
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 5em;
     text-align: center;
+    padding-bottom: 0.5em;
+    margin: 0.7em;
 }
 
 h2 {
     text-transform: uppercase;
     font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 h2, h3 {
     font-family: 'Lora', serif;
 }
 
+h3 {
+    font-style: italic;
+}
+
 h4, p {
     font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    padding: 0.8em;
+    padding-bottom: 1em;
 }
+
 
 nav {
     text-align: center;
@@ -45,7 +58,8 @@ nav {
 nav li {
     display: inline-block;
     padding: 2em;
-    
+    font-size: 20px;
+    font-weight: bold;
 }
 
 a:link, a:visited {
@@ -56,4 +70,8 @@ a:link, a:visited {
 a:hover {
     color: #370617;
     text-decoration: none;
+}
+
+a:active {
+    text-decoration: overline;
 }
